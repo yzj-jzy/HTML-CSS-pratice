@@ -1,0 +1,144 @@
+body{
+    margin: 0px;
+}
+
+
+
+/* topbar */
+
+.topbar-wrapper{
+    width: 100%;
+    background-color: #333;
+    height: 40px;
+    line-height: 40px;
+}
+.services{
+    float: left;
+    margin: 0px ;
+    padding: 0px;
+}
+.topbar li{
+    float: left;
+}
+.topbar a {
+    color: #b0b0b0;
+    line-height: 40px;
+    font-size: 12px;
+    text-decoration: none;
+}
+.topbar a:hover{
+    color: white;
+}
+.line{
+    color: #424242;
+}
+.shop-cart, .user-info{
+    float: right;
+    margin: 0px;
+    padding: 0px;
+}
+
+.qrcode{
+    position: absolute;
+    margin-left: -40px;
+    width: 128px;
+    height: 0px;
+    overflow: hidden;
+    background-color: white;
+    line-height: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,.3);
+    transition: height 600ms;
+}
+
+.app:hover .qrcode{
+    height: 148px;
+}
+
+.qrcode img, .qrcode p{
+    width:90px;
+    margin: 14px 14px;
+    margin-bottom: 0px;
+    color: #333;
+    font-size: 14px;
+}
+
+ul{
+    list-style-type:none;
+    padding: 10px;
+}
+li{
+    padding-left: 10px;
+}
+
+
+/* head */
+.head-wrapper{
+    height: 100px;
+    background-color: greenyellow;
+    line-height: 90px;
+}
+
+.mi-container, .home-container{
+    position: absolute;
+    left: 10px;
+    width: 56px;
+    height: 56px;
+    margin-top: 20px;
+    transition: height 600ms;
+}
+
+.mi{
+    background-image: url("../resoures/xiaomi-logo.png");
+    width: 56px;
+    height: 56px;
+    margin: 0px 0px 0px 20px;
+    position: absolute;
+    background-size: contain;
+    overflow: hidden;
+}
+
+.home{
+    background-image: url("../resoures/xiaomi-home.png");
+    width: 56px;
+    height: 56px;
+    margin: 0px 0px 0px 20px;
+    position: absolute;
+    background-size: 60px 60px;
+    background-repeat: no-repeat ;  
+}
+
+.mi:hover{
+    background-image: url("../resoures/xiaomi-home.png");
+    background-repeat: no-repeat ;  
+}
+
+.head-service{
+    float: left;
+    margin-left: 200px
+}
+
+.head-service a{
+    color: black;
+    line-height: 90px;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.head-service a:hover{
+    color: #ff6900;
+}
+
+.search-bar-container{
+    margin-left: 800px;
+}
+.search-bar{
+    border: 1px solid rgb(224,224,224);
+    height: 50px;
+    width: 200px;
+}
+
+.search-bar-btn{
+    height: 50px;
+    width: 50px;
+}

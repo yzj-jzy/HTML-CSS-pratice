@@ -1,0 +1,161 @@
+/* head css */
+#wrapper #header {
+  height: 160px;
+}
+#wrapper #header .headerTop {
+  background: #eaeaea;
+  height: 30px;
+}
+#wrapper #header .headerTop .headerTopMain {
+  font-size: 13px;
+  width: 1200px;
+  margin: 0px auto;
+  line-height: 30px;
+}
+#wrapper #header .headerTop .headerTopMain .left h5 {
+  float: left;
+  margin-right: 5px;
+}
+#wrapper #header .headerTop .headerTopMain .left p {
+  float: left;
+}
+#wrapper #header .headerTop .headerTopMain .left p a {
+  color: #757474;
+  text-decoration: none;
+}
+#wrapper #header .headerTop .headerTopMain .left p a:first-child {
+  border-right: 1px solid #b3b3b3;
+  margin-right: 5px;
+}
+#wrapper #header .headerTop .headerTopMain .right {
+  float: right;
+}
+#wrapper #header .headerTop .headerTopMain .right nav a {
+  text-decoration: none;
+  color: #757474;
+  border-right: 1px solid #b3b3b3;
+  margin-right: 10px;
+}
+#wrapper #header .headerTop .headerTopMain .right nav a:last-child {
+  border: none;
+}
+#wrapper #header .headerBottom .headerBottomMain {
+  width: 1200px;
+  margin: 0px auto;
+}
+#wrapper #header .headerBottom .headerBottomMain .logo {
+  float: left;
+  margin-top: 15px;
+}
+#wrapper #header .headerBottom .headerBottomMain .logo a img {
+  height: 76px;
+  width: 170px;
+  margin: 0px 45px;
+}
+#wrapper #header .headerBottom .headerBottomMain .search {
+  margin-top: 35px;
+  float: right;
+}
+#wrapper #header .headerBottom .headerBottomMain .search input:first-child {
+  box-sizing: border-box;
+  width: 490px;
+  height: 32px;
+  padding: 0px 4px;
+  border: 3px solid #ea4a36;
+  float: left;
+}
+#wrapper #header .headerBottom .headerBottomMain .search input:last-child {
+  color: white;
+  height: 32px;
+  width: 68px;
+  background-color: #ea4a36;
+  border: none;
+  float: left;
+}
+#wrapper #navWrap {
+  margin: 0px auto;
+  width: 1200px;
+}
+#wrapper #navWrap .navWrapMain {
+  border-bottom: 2px solid red;
+}
+#wrapper #navWrap .navWrapMain::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+#wrapper #navWrap .navWrapMain a {
+  color: #333;
+  font-size: 16px;
+  margin: 0px 22px;
+  text-decoration: none;
+  float: left;
+  text-align: center;
+  line-height: 50px;
+}
+#wrapper #navWrap .navWrapMain a:first-child {
+  width: 210px;
+  height: 50px;
+  background-color: #e1251b;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+}
+#wrapper #content .contentMain {
+  margin: 15px auto 0px auto;
+  width: 1200px;
+  font-size: 0px;
+}
+#wrapper #content .contentMain .navPath {
+  padding: 9px 15px 9px 0px;
+}
+#wrapper #content .contentMain .navPath a {
+  font-size: 12px;
+  color: #666565;
+  text-decoration: none;
+}
+#wrapper #content .contentMain .navPath i {
+  font-size: 12px;
+  color: #666565;
+  padding: 0px 5px;
+}
+#wrapper #content .contentMain #centre {
+  margin: 5px 0px 15px;
+}
+#wrapper #content .contentMain #centre #left {
+  width: 400px;
+  float: left;
+}
+#wrapper #content .contentMain #centre #left #leftTop {
+  width: 400px;
+}
+#wrapper #content .contentMain #centre #left #leftTop #smallPic {
+  width: 400px;
+  height: 400px;
+  border: 1px solid #dfdfdf;
+  position: relative;
+}
+#wrapper #content .contentMain #centre #left #leftTop #smallPic img {
+  width: 400px;
+  height: 400px;
+  position: relative;
+}
+#wrapper #content .contentMain #centre #left #leftTop #smallPic .mask {
+  width: 200px;
+  height: 200px;
+  background: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+#wrapper #content .contentMain #centre #left #leftTop #bigPic {
+  width: 400px;
+  height: 400px;
+  left: 42000px;
+  top: 0px;
+  border: 1px solid #dfdfdf;
+}
+#wrapper #content .contentMain #centre #left #leftTop #bigPic img {
+  width: 800px;
+  height: 800px;
+}
