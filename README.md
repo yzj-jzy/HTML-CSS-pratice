@@ -1,13 +1,10 @@
-For some practice purpose, the following screenshot of interface is written by row CSS and HTML<br/>
-AD List
-![Demo Screenshot](https://github.com/yzj-jzy/HTML-CSS-pratice/blob/main/demo/AD%20List.jpg)
+# HTML CSS practice
 
-E-commerce Header
+For some practice purpose, the following demo is written by row CSS and HTML<br/>
 
-![Demo Screenshot](https://github.com/yzj-jzy/HTML-CSS-pratice/blob/main/demo/E-commerce%20Header.jpg)
+## Demo
 
-E-commerce 
-![Demo Screenshot](https://github.com/yzj-jzy/HTML-CSS-pratice/blob/main/demo/E-commerce.jpg)
+| E-commerce  | E-commerce Header   | AD List                        |  News | 
+| -----------------------------| ------------------------------| ------------------------------| ------------------------------|
+| ![Demo Screenshot](https://github.com/yzj-jzy/HTML-CSS-pratice/blob/main/demo/E-commerce.jpg)| ![Demo Screenshot](https://github.com/yzj-jzy/HTML-CSS-pratice/blob/main/demo/E-commerce%20Header.jpg) | ![Demo 3](https://github.com/yzj-jzy/HTML-CSS-pratice/blob/main/demo/AD%20List.jpg) | ![Demo Screenshot](https://github.com/yzj-jzy/HTML-CSS-pratice/blob/main/demo/news.jpg)
 
-News
-![Demo Screenshot](https://github.com/yzj-jzy/HTML-CSS-pratice/blob/main/demo/news.jpg)
